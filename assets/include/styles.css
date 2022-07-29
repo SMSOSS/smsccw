@@ -113,12 +113,85 @@
      color: #FAFAFA;
  }
 
+ /* BLOG: Common blocks */
+ .bheader {
+     position: absolute;
+     left: 1.11%;
+     top: -10.77%;
+
+     font-family: 'Roboto Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 63px;
+     letter-spacing: -0.05em;
+
+     color: #FAFAFA;
+ }
+
+ .bsubheader {
+     position: absolute;
+     left: 1.11%;
+     top: 7.07%;
+     bottom: 49.12%;
+
+     font-family: 'Roboto Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 29.6663px;
+     line-height: 39px;
+     letter-spacing: -0.05em;
+
+     color: #FAFAFA;
+ }
+
+ .bintro {
+     position: absolute;
+     left: 1.11%;
+     top: 25.88%;
+
+     font-family: 'Roboto Mono';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18.3351px;
+     line-height: 24px;
+     letter-spacing: -0.05em;
+
+     color: #FAFAFA;
+ }
+
+ .blm {
+     position: absolute;
+     text-align: center;
+     left: 36%;
+     top: 85%;
+
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     /* identical to box height */
+     color: #FAFAFA;
+ }
+
  .blog-highlight-one {
-     position: fixed;
+     position: absolute;
      left: 10.35%;
      right: 52.29%;
      top: 33.2%;
-     background: #212121;
+     bottom: 17.97%;
+
+     border: 5px solid #FAFAFA;
+ }
+
+ .blog-highlight-two {
+     position: absolute;
+     left: 52.15%;
+     right: 10.49%;
+     top: 33.2%;
+     bottom: 17.97%;
+
      border: 5px solid #FAFAFA;
  }
 

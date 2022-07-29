@@ -27,6 +27,7 @@
  /* CSS: Front Page */
  .cclub {
      position: fixed;
+     text-align: center;
      left: 21.46%;
      top: 37.79%;
      bottom: 41.8%;
@@ -39,8 +40,8 @@
 
  .ccap {
      position: fixed;
+     text-align: center;
      left: 33.93%;
-     right: 29.93%;
      top: 58.2%;
      bottom: 33.98%;
 
@@ -54,6 +55,7 @@
 
  .s4m {
      position: fixed;
+     text-align: center;
      left: 43.88%;
      top: 91.61%;
      bottom: 1.46%;
@@ -68,8 +70,8 @@
  /* CSS: Blog */
  .blog {
      position: fixed;
+     text-align: center;
      left: 39.99%;
-     right: 37.99%;
      top: 0.27%;
      font-family: 'Ndot';
      font-style: normal;
@@ -81,8 +83,8 @@
 
  .ablog {
      position: fixed;
+     text-align: center;
      left: 36.26%;
-     right: 33.4%;
      top: 24.09%;
      font-family: 'Ndot';
      font-style: normal;
@@ -104,8 +106,8 @@
  /* CSS: Team */
  .team {
      position: fixed;
+     text-align: center;
      left: 39.99%;
-     right: 37.99%;
      top: 0.27%;
      bottom: 74.32%;
      font-family: 'Ndot';
@@ -118,8 +120,8 @@
 
  .ateam {
      position: fixed;
+     text-align: center;
      left: 33.35%;
-     right: 30.42%;
      top: 24.09%;
      bottom: 73.24%;
      font-family: 'Ndot';
@@ -143,6 +145,7 @@
 
  .ps4m {
      position: fixed;
+     text-align: center;
      left: 33.88%;
      top: 91.61%;
      bottom: 1.46%;
@@ -157,8 +160,8 @@
  /* CSS: Timeline */
  .tl {
      position: fixed;
+     text-align: center;
      left: 31.99%;
-     right: 37.99%;
      top: 0.27%;
      bottom: 74.32%;
      font-family: 'Ndot';
@@ -171,8 +174,8 @@
 
  .atl {
      position: fixed;
+     text-align: center;
      left: 41.35%;
-     right: 30.42%;
      top: 24.09%;
      bottom: 73.24%;
      font-family: 'Ndot';
@@ -261,8 +264,8 @@
  /* CSS: End */
  .joinus {
      position: fixed;
+     text-align: center;
      left: 35.42%;
-     right: 30.56%;
      top: 31.69%;
      bottom: 45.9%;
      font-family: 'Ndot';
@@ -275,8 +278,8 @@
 
  .mtc {
      position: fixed;
+     text-align: center;
      left: 31.46%;
-     right: 26.53%;
      top: 52.68%;
      bottom: 41.5%;
 

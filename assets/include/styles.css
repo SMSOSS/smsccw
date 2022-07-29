@@ -10,17 +10,20 @@
  }
 
  body {
+     position: relative;
      width: 100vw;
      height: 100vh;
  }
 
  .white {
+     position: relative;
      width: 100vw;
      height: 100vh;
      background: #F5F5F5;
  }
 
  .black {
+     position: relative;
      width: 100vw;
      height: 100vh;
      background: #212121;
@@ -70,18 +73,19 @@
  }
 
  .ds4m {
-    position: fixed;
-    text-align: center;
-    left: 43.88%;
-    top: 91.61%;
-    bottom: 1.46%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21.0136px;
-    line-height: 30px;
-    color: #FAFAFA;
-}
+     position: fixed;
+     text-align: center;
+     left: 43.88%;
+     top: 91.61%;
+     bottom: 1.46%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 21.0136px;
+     line-height: 30px;
+     color: #FAFAFA;
+ }
+
  /* CSS: Blog */
  .blog {
      position: fixed;

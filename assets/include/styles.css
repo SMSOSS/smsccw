@@ -24,7 +24,7 @@
      background: #212121;
  }
 
- /* CSS: Front Page */ 
+ /* CSS: Front Page */
  .cclub {
      position: fixed;
      left: 21.46%;
@@ -76,7 +76,7 @@
      font-weight: 400;
      font-size: 144px;
      line-height: 209px;
-     color: #FFFFFF;
+     color: #FAFAFA;
  }
 
  .ablog {
@@ -89,7 +89,7 @@
      font-weight: 400;
      font-size: 33.9988px;
      line-height: 49px;
-     color: #FFFFFF;
+     color: #FAFAFA;
  }
 
  .blog-highlight-one {
@@ -98,7 +98,7 @@
      right: 52.29%;
      top: 33.2%;
      background: #212121;
-     border: 5px solid #FFFFFF;
+     border: 5px solid #FAFAFA;
  }
 
  /* CSS: Team */
@@ -181,6 +181,81 @@
      font-size: 33.9988px;
      line-height: 49px;
      color: #FAFAFA;
+ }
+
+ #arrow {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     width: 90%
+ }
+
+ .sep22 {
+     position: fixed;
+     left: 5.71%;
+     right: 80.61%;
+     top: 50.27%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #FAFAFA;
+ }
+
+ .oct22 {
+     position: fixed;
+     left: 18.07%;
+     right: 68.26%;
+     top: 33.89%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #FFFFFF;
+ }
+
+ .jan23 {
+     position: fixed;
+     left: 35.83%;
+     top: 50.27%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #FFFFFF;
+ }
+
+ .mar23 {
+     position: fixed;
+     left: 52.57%;
+     top: 33.89%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #FFFFFF;
+ }
+
+ .may23 {
+     position: fixed;
+     left: 71.18%;
+     top: 50.27%;
+     bottom: 43.36%;
+
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+
+     color: #FFFFFF
  }
 
  /* CSS: End */
@@ -283,14 +358,14 @@
  }
 
  .rtw {
-    position: fixed;
-    left: 66.58%;
-    top: 85.45%;
-    bottom: 11.13%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #212121;
-}
+     position: fixed;
+     left: 66.58%;
+     top: 85.45%;
+     bottom: 11.13%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }

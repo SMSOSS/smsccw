@@ -1,0 +1,296 @@
+ @font-face {
+     font-family: Ndot;
+     src: url('/assets/NDot.otf');
+ }
+
+ * {
+     border: 0;
+ }
+
+ body {
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .white {
+     width: 100vw;
+     height: 100vh;
+     background: #F5F5F5;
+ }
+
+ .black {
+     width: 100vw;
+     height: 100vh;
+     background: #212121;
+ }
+
+ /* CSS: Front Page */ 
+ .cclub {
+     position: fixed;
+     left: 21.46%;
+     top: 37.79%;
+     bottom: 41.8%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 144px;
+     color: #212121;
+ }
+
+ .ccap {
+     position: fixed;
+     left: 33.93%;
+     right: 29.93%;
+     top: 58.2%;
+     bottom: 33.98%;
+
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 55.0062px;
+     line-height: 80px;
+     color: #212121;
+ }
+
+ .s4m {
+     position: fixed;
+     left: 43.88%;
+     top: 91.61%;
+     bottom: 1.46%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 21.0136px;
+     line-height: 30px;
+     color: #212121;
+ }
+
+ /* CSS: Blog */
+ .blog {
+     position: fixed;
+     left: 39.99%;
+     right: 37.99%;
+     top: 0.27%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 144px;
+     line-height: 209px;
+     color: #FFFFFF;
+ }
+
+ .ablog {
+     position: fixed;
+     left: 36.26%;
+     right: 33.4%;
+     top: 24.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 33.9988px;
+     line-height: 49px;
+     color: #FFFFFF;
+ }
+
+ .blog-highlight-one {
+     position: fixed;
+     left: 10.35%;
+     right: 52.29%;
+     top: 33.2%;
+     background: #212121;
+     border: 5px solid #FFFFFF;
+ }
+
+ /* CSS: Team */
+ .team {
+     position: fixed;
+     left: 39.99%;
+     right: 37.99%;
+     top: 0.27%;
+     bottom: 74.32%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 144px;
+     line-height: 209px;
+     color: #212121;
+ }
+
+ .ateam {
+     position: fixed;
+     left: 33.35%;
+     right: 30.42%;
+     top: 24.09%;
+     bottom: 73.24%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 33.9988px;
+     line-height: 49px;
+     color: #212121;
+ }
+
+ #group {
+     position: fixed;
+     left: 31%;
+     right: 25%;
+     top: 35.16%;
+     bottom: 13.81%;
+
+     width: 35%;
+     height: auto;
+ }
+
+ .ps4m {
+     position: fixed;
+     left: 33.88%;
+     top: 91.61%;
+     bottom: 1.46%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 21.0136px;
+     line-height: 30px;
+     color: #212121;
+ }
+
+ /* CSS: Timeline */
+ .tl {
+     position: fixed;
+     left: 31.99%;
+     right: 37.99%;
+     top: 0.27%;
+     bottom: 74.32%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 144px;
+     line-height: 209px;
+     color: #FAFAFA;
+ }
+
+ .atl {
+     position: fixed;
+     left: 41.35%;
+     right: 30.42%;
+     top: 24.09%;
+     bottom: 73.24%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 33.9988px;
+     line-height: 49px;
+     color: #FAFAFA;
+ }
+
+ /* CSS: End */
+ .joinus {
+     position: fixed;
+     left: 35.42%;
+     right: 30.56%;
+     top: 31.69%;
+     bottom: 45.9%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 144px;
+     line-height: 209px;
+     color: #212121;
+ }
+
+ .mtc {
+     position: fixed;
+     left: 31.46%;
+     right: 26.53%;
+     top: 52.68%;
+     bottom: 41.5%;
+
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 55.0062px;
+     line-height: 80px;
+     color: #212121;
+ }
+
+ .email {
+     position: fixed;
+     left: 21.11%;
+     right: 68.19%;
+     top: 75.49%;
+     bottom: 21.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }
+
+ .discord {
+     position: fixed;
+     left: 21.11%;
+     right: 69.17%;
+     top: 80.47%;
+     bottom: 16.11%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }
+
+ .ig {
+     position: fixed;
+     left: 21.11%;
+     right: 70.21%;
+     top: 85.45%;
+     bottom: 11.13%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }
+
+ .github {
+     position: fixed;
+     left: 66.58%;
+     right: 22.71%;
+     top: 75.49%;
+     bottom: 21.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }
+
+ .credit {
+     position: fixed;
+     left: 66.58%;
+     top: 80.47%;
+     bottom: 16.11%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 35px;
+     color: #212121;
+ }
+
+ .rtw {
+    position: fixed;
+    left: 66.58%;
+    top: 85.45%;
+    bottom: 11.13%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #212121;
+}

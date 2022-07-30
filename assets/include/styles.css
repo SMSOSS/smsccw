@@ -225,14 +225,98 @@
  }
 
  #group {
-     position: fixed;
-     left: 31%;
+     width: 100%;
+     height: auto;
+ }
+
+ .tctn {
+     left: 23%;
      right: 25%;
      top: 35.16%;
      bottom: 13.81%;
+     position: absolute;
+     width: 50%;
+ }
 
-     width: 35%;
-     height: auto;
+ /* team invisible dividers */
+
+ /* donald */
+ #donald {
+     position: absolute;
+     top: 50%;
+     left: 22%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 10% 5%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-donald {
+     position: absolute;
+     left: 1.39%;
+     right: 81.25%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-donald-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-donald-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-donald-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-donald-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
  }
 
  .ps4m {

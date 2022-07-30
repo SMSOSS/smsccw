@@ -54,6 +54,7 @@
                 <p class="blm">( LEARN MORE )</p>
             </a>
 
+            <!-- BLOG HIGHLIGHT TWO END -->
         </div> 
         <p class="ds4m">Scroll for more.</p>
     </div>
@@ -62,9 +63,32 @@
         <h1 class="team">Team</h1>
         <h3 class="ateam">The club's important personnel..</h3>
         
-        <div>
-            <img src="/assets/team.jpg" id="group">
+        <div class="tctn">
+            <form method="post">
+                <input type="submit" id="donald" name="donald">
+            </form>
+
+            <img src="/assets/team.png" id="group">
+
+            <?php
+                if (isset($_POST['donald'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-donald"] { display: unset }</style>';
+                }
+            ?>
         </div>
+
+        <!-- NAMECARD CLASSES START -->
+        <div class="namecard-donald">
+            <h3 class="namecard-donald-name">Chung Ho Long</h3>
+            <h4 class="namecard-donald-class">6E (04)</h4>
+            <h4 class="namecard-donald-rank">Chairperson, 2021-22</h4>
+            <a href="mailto://sms23030@stmarks.edu.hk">
+                <p class="namecard-donald-email">( E-MAIL )</p>
+            </a>
+            </div>
+
+        <!-- NAMECARD CLASSES END -->
         <p class="ps4m">click the people for details. scroll down for more.</p>
     </div>
 

@@ -2,9 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="/assets/include/styles.css">
-    <?php
-        include "/assets/include/functions.php";
-    ?>
 </head>
 
 <body>
@@ -65,7 +62,7 @@
         
         <div class="tctn">
             <form method="post">
-                <input type="submit" id="donald" name="donald">
+                <input type="button" id="donald" name="donald" onclick="showDonald()">
                 <input type="submit" id="markc" name="markc">
                 <input type="submit" id="tkt" name="tkt">
                 <input type="submit" id="pig" name="pig">
@@ -75,27 +72,6 @@
 
             <img src="/assets/team.png" id="group">
 
-            <?php
-                if (isset($_POST['donald'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-donald"] { display: unset }</style>';
-                } else if (isset($_POST['markc'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-markc"] { display: unset }</style>';
-                } else if (isset($_POST['tkt'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-tkt"] { display: unset }</style>';
-                } else if (isset($_POST['pig'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-pig"] { display: unset }</style>';
-                } else if (isset($_POST['left'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-left"] { display: unset }</style>';
-                } else if (isset($_POST['jamie'])) {
-                    echo '<style>[class*="namecard"] { display: none; }</style>';
-                    echo '<style>[class*="namecard-jamie"] { display: unset }</style>';
-                }
-            ?>
         </div>
 
         <!-- NAMECARD CLASSES START -->
@@ -229,6 +205,7 @@
     </div>
 
     <script type="text/javascript" src="/assets/include/skrollr.js"></script>
+    <script type="text/javascript" src="/assets/include/utils.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();
     </script>

@@ -319,6 +319,428 @@
      display: none;
  }
 
+ /* mark cheung */
+ #markc {
+     position: absolute;
+     top: 50%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 10% 5%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-markc {
+     position: absolute;
+     left: 1.39%;
+     right: 81.25%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-markc-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-markc-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-markc-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-markc-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ /* roxco to */
+ #tkt {
+     position: absolute;
+     top: 55%;
+     left: 46.5%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 10% 2%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-tkt {
+     position: absolute;
+     left: 1.39%;
+     right: 81.25%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-tkt-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-tkt-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-tkt-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-tkt-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-tkt-git {
+     position: absolute;
+     right: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ /* markus lee */
+ #pig {
+     position: absolute;
+     top: 50%;
+     left: 55%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 5% 2.5%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-pig {
+     position: absolute;
+     left: 81.25%;
+     right: 1.39%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-pig-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-pig-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-pig-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-pig-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ /* matthew chor */
+ #left {
+     position: absolute;
+     top: 58%;
+     left: 68.5%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 7% 2.5%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-left {
+     position: absolute;
+     left: 81.25%;
+     right: 1.39%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-left-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-left-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-left-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-left-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-left-git {
+     position: absolute;
+     right: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ /* jamie ho */
+ #jamie {
+     position: absolute;
+     top: 29%;
+     left: 68.5%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #555;
+     color: white;
+     font-size: 16px;
+     padding: 7% 2.5%;
+     background: transparent;
+     border: none !important;
+     font-size: 0;
+ }
+
+ .namecard-jamie {
+     position: absolute;
+     left: 81.25%;
+     right: 1.39%;
+     top: 52.34%;
+     bottom: 34.18%;
+     background: #FAFAFA;
+     border: 5px solid #212121;
+     display: none;
+ }
+
+ .namecard-jamie-name {
+     position: absolute;
+     left: 1.74%;
+     top: -22.34%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 46px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-jamie-class {
+     position: absolute;
+     left: 1.74%;
+     top: 7.86%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-jamie-rank {
+     position: absolute;
+     left: 1.74%;
+     top: 22.69%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 19.7775px;
+     line-height: 29px;
+     color: #212121;
+     display: none;
+ }
+
+ .namecard-jamie-email {
+     position: absolute;
+     left: 1.74%;
+     top: 63.09%;
+     font-family: 'Ndot';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 26px;
+     color: #212121;
+     display: none;
+ }
+
+ /* end of namecards */
  .ps4m {
      position: fixed;
      text-align: center;

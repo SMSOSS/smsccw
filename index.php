@@ -66,6 +66,11 @@
         <div class="tctn">
             <form method="post">
                 <input type="submit" id="donald" name="donald">
+                <input type="submit" id="markc" name="markc">
+                <input type="submit" id="tkt" name="tkt">
+                <input type="submit" id="pig" name="pig">
+                <input type="submit" id="left" name="left">
+                <input type="submit" id="jamie" name="jamie">
             </form>
 
             <img src="/assets/team.png" id="group">
@@ -74,6 +79,21 @@
                 if (isset($_POST['donald'])) {
                     echo '<style>[class*="namecard"] { display: none; }</style>';
                     echo '<style>[class*="namecard-donald"] { display: unset }</style>';
+                } else if (isset($_POST['markc'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-markc"] { display: unset }</style>';
+                } else if (isset($_POST['tkt'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-tkt"] { display: unset }</style>';
+                } else if (isset($_POST['pig'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-pig"] { display: unset }</style>';
+                } else if (isset($_POST['left'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-left"] { display: unset }</style>';
+                } else if (isset($_POST['jamie'])) {
+                    echo '<style>[class*="namecard"] { display: none; }</style>';
+                    echo '<style>[class*="namecard-jamie"] { display: unset }</style>';
                 }
             ?>
         </div>
@@ -86,8 +106,58 @@
             <a href="mailto://sms23030@stmarks.edu.hk">
                 <p class="namecard-donald-email">( E-MAIL )</p>
             </a>
-            </div>
+        </div>
 
+        <div class="namecard-markc">
+            <h3 class="namecard-markc-name">Cheung Chun Yu</h3>
+            <h4 class="namecard-markc-class">5A (06)</h4>
+            <h4 class="namecard-markc-rank">Committee, 2022-23</h4>
+            <a href="mailto://sms24020@stmarks.edu.hk">
+                <p class="namecard-markc-email">( E-MAIL )</p>
+            </a>
+        </div>
+
+        <div class="namecard-tkt">
+            <h3 class="namecard-tkt-name">To King To</h3>
+            <h4 class="namecard-tkt-class">5C (17)</h4>
+            <h4 class="namecard-tkt-rank">Chairperson, 2022-23</h4>
+            <a href="mailto://sms24112@stmarks.edu.hk">
+                <p class="namecard-tkt-email">( E-MAIL )</p>
+            </a>
+            <a href="https://github.com/kotnid">
+                <p class="namecard-tkt-git">( GITHUB )</p>
+            </a>
+        </div>
+
+        <div class="namecard-pig">
+            <h3 class="namecard-pig-name">Lee Cheuk Long</h3>
+            <h4 class="namecard-pig-class">5A (18)</h4>
+            <h4 class="namecard-pig-rank">Secretary, 2022-23</h4>
+            <a href="mailto://sms24071@stmarks.edu.hk">
+                <p class="namecard-pig-email">( E-MAIL )</p>
+            </a>
+        </div>
+
+        <div class="namecard-left">
+            <h3 class="namecard-left-name">Chor Ching Nam</h3>
+            <h4 class="namecard-left-class">5D (05)</h4>
+            <h4 class="namecard-left-rank">Treasurer, 2022-23</h4>
+            <a href="mailto://sms24028@stmarks.edu.hk">
+                <p class="namecard-left-email">( E-MAIL )</p>
+            </a>
+            <a href="https://github.com/CCN0807">
+                <p class="namecard-left-git">( GITHUB )</p>
+            </a>
+        </div>
+
+        <div class="namecard-jamie">
+            <h3 class="namecard-jamie-name">Ho Sze Yui</h3>
+            <h4 class="namecard-jamie-class">5A (11)</h4>
+            <h4 class="namecard-jamie-rank">Committee, 2022-23</h4>
+            <a href="mailto://sms24044@stmarks.edu.hk">
+                <p class="namecard-jamie-email">( E-MAIL )</p>
+            </a>
+        </div>
         <!-- NAMECARD CLASSES END -->
         <p class="ps4m">click the people for details. scroll down for more.</p>
     </div>

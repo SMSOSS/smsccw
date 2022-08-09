@@ -444,7 +444,35 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    transform: translate(0,0%);
 }
+
+.email:hover{
+    transform: translate(100%,0%);
+}
+
+.discord:hover{
+    transform: translate(100%,0%);
+}
+
+.ig:hover{
+    transform: translate(100%,0%);
+}
+
+.github:hover{
+    transform: translate(100%,0%);
+}
+
+.credit:hover{
+    transform: translate(100%,0%);
+}
+
+.rtw:hover{
+    transform: translate(100%,0%);
+}
+
 
 .email {
     left: 21.11%;
@@ -475,3 +503,4 @@ body {
     left: 66.58%;
     top: 85.45%;
 }
+

@@ -7,7 +7,8 @@
     <title> smsccw </title>
 </head>
 <body onload="hideAllCards()">
-    
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
     <div class="slide" data-0="transform:translate(0,0%);opacity:1" data-100p="transform:translate(0,-100%);opacity:1">
         <h1 class="cclub">Computer Club</h1>
         <p class="ccap">Rewriting the rules.</p>
@@ -21,39 +22,14 @@
 
         <!-- BLOG HIGHLIGHT ONE START-->
         <div class="blog-highlight-one">
-            <h4 class="bheader">2022: End of year report.</h4>
-            <h5 class="bsubheader">Tough year eh? Same for us.</h5>
-            <p class="bintro">This year was a challenging year for everyone.
-                Under the Coronavirus pandemic, a lot of clubs and societies' 
-                activites are limited due to government restrictions on schools.
-                <br> <br>
-                Still, we managed to try our best to organize activities for people
-                that are interested in what we do. Continue reading to find out more details.
-            </p>
-
-            <a href="/blog/2022-review/2022-review.html">
-                <p class="blm">( LEARN MORE )</p>
-            </a>
+            <include src="blog/highlight-one.html"></include>
         </div>
 
         <!-- BLOG HIGHLIGHT ONE END -->
 
         <!-- BLOG HIGHLIGHT TWO START -->
         <div class="blog-highlight-two">
-            <h4 class="bheader">The story of the website.</h4>
-            <h5 class="bsubheader">The rules behind the design.</h5>
-            <p class="bintro">For those that may find the design of the website weird.
-                Here are answers for your queries, and our decisions.
-                <br><br>
-                In this article, we will cover the reasons for our designs, why we decided
-                to go with this color / font selection, designing rules we have been following,
-                goals we aim to acheive with this website, etc.
-            </p>
-
-            <a href="/blog/design/design.html">
-                <p class="blm">( LEARN MORE )</p>
-            </a>
-
+            <include src="blog/highlight-two.html"></include>
             <!-- BLOG HIGHLIGHT TWO END -->
         </div> 
         <p class="s4m color-white">Scroll for more.</p>
@@ -179,6 +155,7 @@
         <h1 class="joinus">Join us.</h1>
         <h3 class="mtc">make the change happen.</h3>
         
+        <div class="link-group">
         <a href="https://instagram.com/sms.computerclub">
             <p class="ig">( INSTAGRAM )</p>
         </a>
@@ -202,7 +179,7 @@
         <a href="https://smsoss.github.io/smsrt_website/">
             <p class="rtw">( ROBOT TEAM WEBSITE )</p>
         </a>
-
+        </div>
         <p class="s4m">DESIGNED BY RAIN2WOOD.CHECK OUT THE IDEA <a href="https://www.figma.com/file/95vzDk3QigIqX9DVD2qcwe/CClub-2223?node-id=7%3A33">HERE</a></p>
         <p class="s4m2">EDITED BY kotnid.CHECK OUT THE IDEA <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HERE</a></p>
 

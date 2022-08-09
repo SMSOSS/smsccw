@@ -9,6 +9,10 @@
     border: 0;
 }
 
+html{
+    overflow: hidden;
+}
+
 body {
     position: fixed;
     width: 100vw;
@@ -114,7 +118,8 @@ a{
     font-size: 48px;
     line-height: 65px;
     letter-spacing: -0.05em;
-    overflow-x: scroll;
+    overflow-x: hidden;
+    
 
     color: #FAFAFA;
 }
@@ -149,7 +154,7 @@ a{
     font-size: 18.3351px;
     line-height: 24px;
     letter-spacing: -0.05em;
-    overflow-x: scroll;
+    overflow-x: hidden;
 
     color: #FAFAFA;
 }
@@ -340,18 +345,10 @@ a{
     right: 1.39%;
 }
 
-
-
 /* CSS: Timeline */
 
-#arrow {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;   
-    margin: auto;
-    width: 90%
+.timeline-divider{
+    border-top: 4px dotted white;
 }
 
 .timeline{
@@ -360,71 +357,6 @@ a{
 
 .timeline__content{
     font-size: 22px;
-}
-
-.sep22 {
-    position: fixed;
-    left: 5.71%;
-    right: 80.61%;
-    top: 50.27%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #FAFAFA;
-}
-
-.oct22 {
-    position: fixed;
-    left: 18.07%;
-    right: 68.26%;
-    top: 33.89%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #FAFAFA;
-}
-
-.jan23 {
-    position: fixed;
-    left: 35.83%;
-    top: 50.27%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #FAFAFA;
-}
-
-.mar23 {
-    position: fixed;
-    left: 52.57%;
-    top: 33.89%;
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #FAFAFA;
-}
-
-.may23 {
-    position: fixed;
-    left: 71.18%;
-    top: 50.27%;
-    bottom: 43.36%;
-
-    font-family: 'Ndot';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-
-    color: #FAFAFA
 }
 
 /* CSS: End */

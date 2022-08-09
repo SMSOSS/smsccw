@@ -1,0 +1,475 @@
+@font-face {
+    font-family: Ndot;
+    src: url('/assets/NDot.otf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto%20Mono');
+
+* {
+    border: 0;
+}
+
+body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Ndot';
+    font-style: normal;
+    color: #212121;
+}
+
+.slide {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.black{
+    background: #212121;
+}
+
+.color-black{
+    color: black;
+}
+
+.color-white{
+    color: #FAFAFA;
+}
+
+/* CSS: Front Page */
+
+.cclub{
+    position: fixed;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 144px;
+}
+
+.ccap {
+    position: fixed;
+    text-align: center;
+    top: 58.2%;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 55.0062px;
+    line-height: 80px;
+}
+
+.s4m , .s4m2 {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 91.61%;
+
+    font-weight: 400;
+    font-size: 21.0136px;
+    line-height: 30px;
+}
+
+.s4m2{
+    top: 95%;
+}
+
+.title {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0.27%;
+    
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 209px;
+}
+
+.subtitle{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 24.09%;
+
+    font-weight: 400;
+    font-size: 33.9988px;
+    line-height: 49px;
+}
+
+/* CSS: Blog */
+.bheader {
+    position: absolute;
+    left: 1.11%;
+    top: -10.77%;
+    height: 20%;
+    width: 100%;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    letter-spacing: -0.05em;
+
+    color: #FAFAFA;
+}
+
+.bsubheader {
+    position: absolute;
+    left: 1.11%;
+    top: 7.07%;
+    height: 15%;
+    width: 100%;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.6663px;
+    line-height: 39px;
+    letter-spacing: -0.05em;
+
+    color: #FAFAFA;
+}
+
+.bintro {
+    position: absolute;
+    left: 1.11%;
+    top: 25.88%;
+    height: 45%;
+    width: 100%;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.3351px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+
+    color: #FAFAFA;
+}
+
+.blm {
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    height: 20%;
+    width: 100%;
+
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #FAFAFA;
+}
+
+.blog-highlight-one , .blog-highlight-two{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    border: 5px solid #FAFAFA;
+}
+
+.blog-highlight-one{
+    left: 10.35%;
+    top: 33.2%;
+}
+
+.blog-highlight-two {
+    left: 52.15%;
+    top: 33.2%;
+}
+
+/* CSS: Team */
+
+
+.image_holder{
+    width:50%;
+    left: 23%;
+    top: 35%;
+    height: 70%;
+    position: relative;
+}
+
+.box {
+    opacity: 0;
+    position : absolute;
+    z-index: 2;
+    height: 50%;
+}
+
+.jamie{
+    width: 15%;
+    left:60%;
+    height: 15%;
+    top: 5%;
+    background-color: orange;
+}
+
+.left{
+    width: 15%;
+    left:60%;
+    height:30%;
+    top:20%;
+    background-color: black;
+}
+
+.donald{
+    width: 20%;
+    left:12%;
+    height:40%;
+    top:20%;
+    background-color: blue;
+}
+
+.jy{
+    width: 10%;
+    left:32%;
+    height:40%;
+    top:20%;
+    background-color: green;
+}
+
+.tkt{
+    width: 8%;
+    left:42%;
+    height:40%;
+    top:20%;
+    background-color: yellow;
+}
+
+.pig{
+    width: 10%;
+    left:50%;
+    height:40%;
+    top:20%;
+    background-color: brown;
+}
+
+
+#group {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+
+.namecard {
+    position: absolute;
+    left: 1.39%;
+    right: 81.25%;
+    top: 52.34%;
+    bottom: 34.18%;
+    background: #FAFAFA;
+    border: 5px solid #212121;
+}
+
+.namecard-name{
+    position: absolute;
+    left: 1.74%;
+   
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #212121;
+    
+    margin: 0;
+    height: 30%;
+    overflow-x: scroll;
+}
+
+.namecard-class {
+    position: absolute;
+    left: 1.74%;
+    top: 7.86%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.7775px;
+    line-height: 29px;
+    color: #212121;
+}
+
+.namecard-rank {
+    position: absolute;
+    left: 1.74%;
+    top: 22.69%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.7775px;
+    line-height: 29px;
+    color: #212121;
+}
+
+.namecard-email {
+    position: absolute;
+    left: 1.74%;
+    top: 63.09%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.namecard-git {
+    position: absolute;
+    right: 1.74%;
+    top: 63.09%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.left-card , .pig-card , .jamie-card{
+    left: 81.25%;
+    right: 1.39%;
+}
+
+
+
+/* CSS: Timeline */
+
+#arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    margin: auto;
+    width: 90%
+}
+
+.sep22 {
+    position: fixed;
+    left: 5.71%;
+    right: 80.61%;
+    top: 50.27%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FAFAFA;
+}
+
+.oct22 {
+    position: fixed;
+    left: 18.07%;
+    right: 68.26%;
+    top: 33.89%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FAFAFA;
+}
+
+.jan23 {
+    position: fixed;
+    left: 35.83%;
+    top: 50.27%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FAFAFA;
+}
+
+.mar23 {
+    position: fixed;
+    left: 52.57%;
+    top: 33.89%;
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FAFAFA;
+}
+
+.may23 {
+    position: fixed;
+    left: 71.18%;
+    top: 50.27%;
+    bottom: 43.36%;
+
+    font-family: 'Ndot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #FAFAFA
+}
+
+/* CSS: End */
+
+.joinus {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 31.69%;
+ 
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 209px;
+}
+
+.mtc {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 52.68%;
+
+    font-weight: 400;
+    font-size: 55.0062px;
+    line-height: 80px;
+}
+
+.email , .discord , .ig , .github , .credit , .rtw{
+    position: fixed;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.email {
+    left: 21.11%;
+    top: 75.49%;
+}
+
+.discord {
+    left: 21.11%;
+    top: 80.47%;
+}
+
+.ig {
+    left: 21.11%;
+    top: 85.45%;
+}
+
+.github {
+    left: 66.58%;
+    top: 75.49%;
+}
+
+.credit {
+    left: 66.58%;
+    top: 80.47%;
+}
+
+.rtw {
+    left: 66.58%;
+    top: 85.45%;
+}

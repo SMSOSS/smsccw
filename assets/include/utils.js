@@ -2,16 +2,58 @@
 /* version 1.0 */
 
 function hideAllCards() {
-    var cards = document.querySelectorAll("[id*='namecard']");
-    console.log(cards)
-    for (var card in cards){
-        cards[card].style.display = 'none';
+    var cards = document.querySelectorAll(".namecard");
+     /* console.log(cards); */
+    for (var i = 0, element; element = cards[i]; i++) {
+        console.log(element);
+        element.style.display = 'none';
     }
 }
 
-function showNameCard(name) {
 
+function card_onclick(name){
+    console.log(name+" is clicked!");
+    hideAllCards();
+
+    switch(name){
+        case "donald":
+            var ele = document.getElementsByClassName('donald-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+        
+        case "jy":
+            var ele = document.getElementsByClassName('jy-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+
+        case "tkt":
+            var ele = document.getElementsByClassName('tkt-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+
+        case "pig":
+            var ele = document.getElementsByClassName('pig-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+
+        case "left":
+            var ele = document.getElementsByClassName('left-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+        
+        case "jamie":
+            var ele = document.getElementsByClassName('jamie-card')[0];
+            console.log(ele);
+            ele.style.display = '';
+            break;
+    }
 }
+
 
 function showDonald() {
     console.log("hi!!!")

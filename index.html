@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/assets/include/styles.css">
+    <link rel="stylesheet" href="/assets/include/style.css">
+    <title> smsccw </title>
 </head>
-
-<body>
-    <div class="white" data-0="transform:translate(0,0%);opacity:1" data-100p="transform:translate(0,0%);opacity:1">
+<body onload="hideAllCards()">
+    
+    <div class="slide" data-0="transform:translate(0,0%);opacity:1" data-100p="transform:translate(0,-100%);opacity:1">
         <h1 class="cclub">Computer Club</h1>
         <p class="ccap">Rewriting the rules.</p>
     
         <p class="s4m">Scroll for more.</p>
     </div>
-    
-    <div class="black" data-0="transform:translate(0,100%); opacity:0.3" data-100p="transform:translate(0,0%);opacity:1">
-        <h1 class="blog">Blog</h1>
-        <h3 class="ablog">Latest news and activities.</h3>
+
+    <div class="slide black" data-0="transform:translate(0,100%);opacity:1" data-200p="transform:translate(0,-100%);opacity:1">
+        <h1 class="title color-white">Blog</h1>
+        <h3 class="subtitle color-white">Latest news and activities.</h3>
 
         <!-- BLOG HIGHLIGHT ONE START-->
         <div class="blog-highlight-one">
@@ -53,94 +54,91 @@
 
             <!-- BLOG HIGHLIGHT TWO END -->
         </div> 
-        <p class="ds4m">Scroll for more.</p>
+        <p class="s4m color-white">Scroll for more.</p>
+
     </div>
 
-    <div class="white" data-0="transform:translate(0,100%); opacity:0.3" data-100p="transform:translate(0,0%);opacity:1">
-        <h1 class="team">Team</h1>
-        <h3 class="ateam">The club's important personnel..</h3>
+    <div class="slide" data-100p="transform:translate(0,100%);opacity:1" data-300p="transform:translate(0,-100%);opacity:1">
+        <h1 class="title color-black">Team</h1>
+        <h3 class="subtitle color-black">The club's important personnel..</h3>
         
-        <div class="tctn">
-            <form method="post">
-                <input type="button" id="donald" name="donald" onclick="showDonald()">
-                <input type="submit" id="markc" name="markc">
-                <input type="submit" id="tkt" name="tkt">
-                <input type="submit" id="pig" name="pig">
-                <input type="submit" id="left" name="left">
-                <input type="submit" id="jamie" name="jamie">
-            </form>
-
+        <div class="image_holder">
             <img src="/assets/team.png" id="group">
-
-        </div>
-
+            <div class="box donald" onclick="card_onclick('donald')"></div>
+            <div class="box jy" onclick="card_onclick('jy')"></div>
+            <div class="box tkt" onclick="card_onclick('tkt')"></div>
+            <div class="box pig" onclick="card_onclick('pig')"></div>
+            <div class="box left" onclick="card_onclick('left')"></div>
+            <div class="box jamie" onclick="card_onclick('jamie')"></div>
+        </div>    
+        
         <!-- NAMECARD CLASSES START -->
-        <div class="namecard-donald">
-            <h3 class="namecard-donald-name">Chung Ho Long</h3>
-            <h4 class="namecard-donald-class">6E (04)</h4>
-            <h4 class="namecard-donald-rank">Chairperson, 2021-22</h4>
+        <div class="namecard donald-card">
+            <h3 class="namecard-name">Chung Ho Long</h3>
+            <h4 class="namecard-class">6E (04)</h4>
+            <h4 class="namecard-rank">Chairperson, 2021-22</h4>
             <a href="mailto://sms23030@stmarks.edu.hk">
-                <p class="namecard-donald-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
         </div>
 
-        <div class="namecard-markc">
-            <h3 class="namecard-markc-name">Cheung Chun Yu</h3>
-            <h4 class="namecard-markc-class">5A (06)</h4>
-            <h4 class="namecard-markc-rank">Committee, 2022-23</h4>
+        <div class="namecard jy-card">
+            <h3 class="namecard-name">Cheung Chun Yu</h3>
+            <h4 class="namecard-class">5A (06)</h4>
+            <h4 class="namecard-rank">Committee, 2022-23</h4>
             <a href="mailto://sms24020@stmarks.edu.hk">
-                <p class="namecard-markc-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
         </div>
 
-        <div class="namecard-tkt">
-            <h3 class="namecard-tkt-name">To King To</h3>
-            <h4 class="namecard-tkt-class">5C (17)</h4>
-            <h4 class="namecard-tkt-rank">Chairperson, 2022-23</h4>
+        <div class="namecard tkt-card">
+            <h3 class="namecard-name">To King To</h3>
+            <h4 class="namecard-class">5C (17)</h4>
+            <h4 class="namecard-rank">Chairperson, 2022-23</h4>
             <a href="mailto://sms24112@stmarks.edu.hk">
-                <p class="namecard-tkt-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
             <a href="https://github.com/kotnid">
-                <p class="namecard-tkt-git">( GITHUB )</p>
+                <p class="namecard-git">( GITHUB )</p>
             </a>
         </div>
 
-        <div class="namecard-pig">
-            <h3 class="namecard-pig-name">Lee Cheuk Long</h3>
-            <h4 class="namecard-pig-class">5A (18)</h4>
-            <h4 class="namecard-pig-rank">Secretary, 2022-23</h4>
+        <div class="namecard pig-card">
+            <h3 class="namecard-name">Lee Cheuk Long</h3>
+            <h4 class="namecard-class">5A (18)</h4>
+            <h4 class="namecard-rank">Secretary, 2022-23</h4>
             <a href="mailto://sms24071@stmarks.edu.hk">
-                <p class="namecard-pig-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
         </div>
 
-        <div class="namecard-left">
-            <h3 class="namecard-left-name">Chor Ching Nam</h3>
-            <h4 class="namecard-left-class">5D (05)</h4>
-            <h4 class="namecard-left-rank">Treasurer, 2022-23</h4>
+        <div class="namecard left-card">
+            <h3 class="namecard-name">Chor Ching Nam</h3>
+            <h4 class="namecard-class">5D (05)</h4>
+            <h4 class="namecard-rank">Treasurer, 2022-23</h4>
             <a href="mailto://sms24028@stmarks.edu.hk">
-                <p class="namecard-left-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
             <a href="https://github.com/CCN0807">
-                <p class="namecard-left-git">( GITHUB )</p>
+                <p class="namecard-git">( GITHUB )</p>
             </a>
         </div>
 
-        <div class="namecard-jamie">
-            <h3 class="namecard-jamie-name">Ho Sze Yui</h3>
-            <h4 class="namecard-jamie-class">5A (11)</h4>
-            <h4 class="namecard-jamie-rank">Committee, 2022-23</h4>
+        <div class="namecard jamie-card">
+            <h3 class="namecard-name">Ho Sze Yui</h3>
+            <h4 class="namecard-class">5A (11)</h4>
+            <h4 class="namecard-rank">Committee, 2022-23</h4>
             <a href="mailto://sms24044@stmarks.edu.hk">
-                <p class="namecard-jamie-email">( E-MAIL )</p>
+                <p class="namecard-email">( E-MAIL )</p>
             </a>
         </div>
-        <!-- NAMECARD CLASSES END -->
-        <p class="ps4m">click the people for details. scroll down for more.</p>
+
+        <p class="s4m">click the people for details. scroll down for more.</p>
     </div>
 
-    <div class="black" data-0="transform:translate(0,100%); opacity:0.3" data-100p="transform:translate(0,0%);opacity:1" style="min-height: 200px">
-        <h1 class="tl">Timeline</h1>
-        <h3 class="atl">our yearly plan.</h3>
+    <div class="slide black" data-200p="transform:translate(0,100%); opacity:1" data-400p="transform:translate(0,-100%);opacity:1" style="min-height: 200px">
+        <h1 class="title color-white">Timeline</h1>
+        <h3 class="subtitle color-white">our yearly plan.</h3>
 
         <img id="arrow" src="/assets/arrow.png">
 
@@ -172,13 +170,13 @@
             ICT day 2023
         </p>
 
-        <p class="ds4m">Scroll for more.</p>
+        <p class="s4m color-white">Scroll for more.</p>
     </div>
 
-    <div class="white" data-0="transform:translate(0,100%); opacity:0.3" data-100p="transform:translate(0,0%);opacity:1">
+    <div class="slide" data-300p="transform:translate(0,100%); opacity:1" data-400p="transform:translate(0,0%);opacity:1">
         <h1 class="joinus">Join us.</h1>
         <h3 class="mtc">make the change happen.</h3>
-
+        
         <a href="https://instagram.com/sms.computerclub">
             <p class="ig">( INSTAGRAM )</p>
         </a>
@@ -202,12 +200,17 @@
         <a href="https://smsoss.github.io/smsrt_website/">
             <p class="rtw">( ROBOT TEAM WEBSITE )</p>
         </a>
+
+        <p class="s4m">DESIGNED BY RAIN2WOOD.CHECK OUT THE IDEA <a href="https://www.figma.com/file/95vzDk3QigIqX9DVD2qcwe/CClub-2223?node-id=7%3A33">HERE</a></p>
+        <p class="s4m2">EDITED BY kotnid.CHECK OUT THE IDEA <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HERE</a></p>
+
     </div>
+    
 
     <script type="text/javascript" src="/assets/include/skrollr.js"></script>
     <script type="text/javascript" src="/assets/include/utils.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
+
 </body>
-</html>

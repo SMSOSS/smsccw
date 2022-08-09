@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="dist/css/timeline.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 800px) and (min-device-width : 500px)" href="/assets/include/pad.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 500px)" href="/assets/include/mobile.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width : 800px)" href="/assets/include/style.css">
@@ -118,35 +119,48 @@
         <h1 class="title color-white">Timeline</h1>
         <h3 class="subtitle color-white">our yearly plan.</h3>
 
-        <img id="arrow" src="/assets/arrow.png">
+        <div class="timeline"  data-force-vertical-mode="500">
+            <div class="timeline__wrap">
+              <div class="timeline__items">
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    September 2022: <br>
+                    Enrollment day <br>
+                    Annual General Meeting
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    October 2022:<br>
+                    Collaboration with <br>
+                    green club
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    January 2023:<br>
+                    Collaboration with<br>
+                    Chinese history club
+                  </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                      Jmarch 2023:<br>
+                      Collaboration with<br>
+                      ?????????
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__content">
+                        May 2023:<br>
+                        ICT day 2023
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
 
-        <p class="sep22">September 2022: <br>
-            Enrollment day <br>
-            Annual General Meeting
-        </p>
-
-        <p class="oct22">
-            October 2022:<br>
-            Collaboration with <br>
-            green club
-        </p>
-
-        <p class="jan23">
-            January 2023:<br>
-            Collaboration with<br>
-            Chinese history club
-        </p>
-
-        <p class="mar23">
-            march 2023:<br>
-            Collaboration with<br>
-            ?????????
-        </p>
-
-        <p class="may23">
-            May 2023:<br>
-            ICT day 2023
-        </p>
+        
 
         <p class="s4m color-white">Scroll for more.</p>
     </div>
@@ -185,7 +199,7 @@
 
     </div>
     
-
+    <script src="dist/js/timeline.min.js"></script>
     <script type="text/javascript" src="/assets/include/skrollr.js"></script>
     <script type="text/javascript" src="/assets/include/utils.js"></script>
     <script type="text/javascript">

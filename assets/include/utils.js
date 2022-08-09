@@ -59,3 +59,17 @@ function showDonald() {
     console.log("hi!!!")
     hideAllCards();
 }
+
+if (screen.width < 613){
+    timeline(document.querySelectorAll('.timeline'), {
+        forceVerticalMode: 800,
+        mode: 'vertical',
+        visibleItems: 4
+    });
+}else{
+    timeline(document.querySelectorAll('.timeline'), {
+        forceVerticalMode: 800,
+        mode: 'horizontal',
+        visibleItems: 4
+    });
+}

@@ -350,6 +350,14 @@ body {
     width: 90%
 }
 
+.timeline{
+    top: 35%;
+}
+
+.timeline__content{
+    font-size: 22px;
+}
+
 .sep22 {
     position: fixed;
     left: 5.71%;

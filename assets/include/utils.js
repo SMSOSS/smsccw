@@ -54,12 +54,6 @@ function card_onclick(name){
     }
 }
 
-
-function showDonald() {
-    console.log("hi!!!")
-    hideAllCards();
-}
-
 if (screen.width < 613){
     timeline(document.querySelectorAll('.timeline'), {
         forceVerticalMode: 800,

@@ -96,6 +96,10 @@ body {
     line-height: 49px;
 }
 
+a{
+    color: black;
+}
+
 /* CSS: Blog */
 .bheader {
     position: absolute;

@@ -67,3 +67,34 @@ if (screen.width < 613){
         visibleItems: 4
     });
 }
+
+
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.target.className.includes("up-wrapper",0) == true){
+          var animation = 'up-animation';
+          var name = '.up';
+      }
+      else if (entry.target.className.includes("down-wrapper",0) == true){
+        var animation = 'down-animation';
+        var name = '.down';
+      }
+      
+      const element = entry.target.querySelector(name);
+  
+      if (entry.isIntersecting) {
+          element.classList.add(animation);
+          return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      element.classList.remove(animation);
+    });
+});
+  
+observer.observe(document.querySelector('.up-wrapper'));
+observer.observe(document.querySelector('.up-wrapper1'));
+observer.observe(document.querySelector('.up-wrapper2'));
+observer.observe(document.querySelector('.down-wrapper'));
+observer.observe(document.querySelector('.down-wrapper1'));

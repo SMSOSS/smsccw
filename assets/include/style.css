@@ -1,6 +1,6 @@
 @font-face {
     font-family: Ndot;
-    src: url('/assets/NDot.otf');
+    src: url('assets/NDot.otf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%20Mono');

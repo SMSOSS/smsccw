@@ -203,7 +203,12 @@
     <script type="text/javascript" src="assets/include/skrollr.js"></script>
     <script type="text/javascript" src="assets/include/utils.js"></script>
     <script type="text/javascript">
-        var s = skrollr.init();
+        skrollr.init({
+	        render: function(data) {
+		        //Log the current scroll position.
+		        console.log(data.curTop);
+	        }
+        });
     </script>
 
 </body>

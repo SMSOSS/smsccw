@@ -2,24 +2,22 @@
 <html>
 <head>
     <link href="dist/css/timeline.min.css" rel="stylesheet" />
-    <!-- 
-    <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 800px) and (min-device-width : 500px)" href="assets/include/pad.css">
-    //<link rel="stylesheet" type="text/css" media="screen and (max-device-width : 500px)" href="assets/include/mobile.css">
-    //<link rel="stylesheet" type="text/css" media="screen and (min-device-width : 800px)" href="assets/include/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/include/mobile.css">
+    <link rel="stylesheet" type="text/css" href="assets/include/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 1200px)" href="assets/include/mobile.css"> 
     <title> smsccw </title>
 </head>
+
 <body onload="hideAllCards()">
     <script src="https://unpkg.com/htmlincludejs"></script>
 
-    <div class="slide" data-0="transform:translate(0,0%);opacity:1" data-100p="transform:translate(0,-100%);opacity:1">
+    <div class="slide">
         <h1 class="cclub">Computer Club</h1>
         <p class="ccap">Rewriting the rules.</p>
     
         <p class="s4m">Scroll for more.</p>
     </div>
 
-    <div class="slide black" data-0="transform:translate(0,100%);opacity:1" data-200p="transform:translate(0,-100%);opacity:1">
+    <div class="slide black">
         <h1 class="title color-white">Blog</h1>
         <h3 class="subtitle color-white">Latest news and activities.</h3>
 
@@ -36,14 +34,14 @@
             <!-- BLOG HIGHLIGHT TWO END -->
         </div> 
         <p class="s4m color-white">Scroll for more.</p>
-
     </div>
 
-    <div class="slide" data-100p="transform:translate(0,100%);opacity:1" data-300p="transform:translate(0,-100%);opacity:1">
+    <div class="slide">
         <h1 class="title color-black">Team</h1>
         <h3 class="subtitle color-black">The club's important personnel..</h3>
         
-        <div class="image_holder">
+
+        <div class="img_holder">
             <img src="assets/team.png" id="group">
             <div class="box donald" onclick="card_onclick('donald')"></div>
             <div class="box jy" onclick="card_onclick('jy')"></div>
@@ -51,7 +49,7 @@
             <div class="box pig" onclick="card_onclick('pig')"></div>
             <div class="box left" onclick="card_onclick('left')"></div>
             <div class="box jamie" onclick="card_onclick('jamie')"></div>
-        </div>    
+        </div>  
         
         <!-- NAMECARD CLASSES START -->
         <div class="namecard donald-card">
@@ -117,7 +115,7 @@
         <p class="s4m">click the people for details. scroll down for more.</p>
     </div>
 
-    <div class="slide black" data-200p="transform:translate(0,100%); opacity:1" data-400p="transform:translate(0,-100%);opacity:1" style="min-height: 200px">
+    <div class="slide black">
         <h1 class="title color-white">Timeline</h1>
         <h3 class="subtitle color-white">our yearly plan.</h3>
 
@@ -154,17 +152,14 @@
               </div>
             </div>
         </div>
-
-        
-
         <p class="s4m color-white">Scroll for more.</p>
     </div>
 
-    <div class="slide" data-300p="transform:translate(0,100%); opacity:1" data-400p="transform:translate(0,0%);opacity:1">
+    <div class="slide">
         <h1 class="joinus">Join us.</h1>
         <h3 class="mtc">make the change happen.</h3>
         
-        <div class="link-group">
+        <div class="link-group1">
         <a href="https://instagram.com/sms.computerclub">
             <p class="ig">( INSTAGRAM )</p>
         </a>
@@ -176,7 +171,8 @@
         <a href="mailto:computer-club@stmarks.edu.hk">
             <p class="email">( EMAIL )</p>
         </a>
-
+        </div>
+        <div class="link-group2">
         <a href="https://github.com/SMSOSS">
             <p class="github">( GITHUB )</p>
         </a>
@@ -189,21 +185,12 @@
             <p class="rtw">( ROBOT TEAM WEBSITE )</p>
         </a>
         </div>
-        <p class="s4m">DESIGNED BY RAIN2WOOD.CHECK OUT THE IDEA <a href="https://www.figma.com/file/95vzDk3QigIqX9DVD2qcwe/CClub-2223?node-id=7%3A33">HERE</a></p>
-        <p class="s4m2">EDITED BY kotnid.CHECK OUT THE IDEA <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HERE</a></p>
+        <p class="s4m">DESIGNED BY RAIN2WOOD</p>
+        <p class="s4m2">EDITED BY kotnid</p>
 
     </div>
     
     <script src="dist/js/timeline.min.js"></script>
-    <script type="text/javascript" src="assets/include/skrollr.js"></script>
     <script type="text/javascript" src="assets/include/utils.js"></script>
-    <script type="text/javascript">
-        skrollr.init({
-	        render: function(data) {
-		        //Log the current scroll position.
-		        console.log(data.curTop);
-	        }
-        });
-    </script>
-
+    </div>
 </body>

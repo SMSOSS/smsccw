@@ -170,7 +170,7 @@ a{
 
 
 .box {
-    opacity: 0;
+    opacity: 0.3;
     position : absolute;
     z-index: 2;
     height: 50%;

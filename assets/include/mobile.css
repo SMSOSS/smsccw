@@ -1,6 +1,6 @@
 #group{
-    width:70vw;
-    left: 15vw;
+    width:90vw;
+    left: 5vw;
     top: 30%;
     height: auto;
     position: relative;
@@ -56,8 +56,8 @@
 
 .namecard {
     position: absolute;
-    width: 40vw;
-    left: 30vw;
+    width: 50vw;
+    left: 25vw;
     top: 68vh;
     height: 15vh;
     background: #FAFAFA;

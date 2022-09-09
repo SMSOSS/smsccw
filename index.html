@@ -10,7 +10,7 @@
     <title> smsccw </title>
 </head>
 
-<body onload="hideAllCards()">
+<body onload="hideAllCards('ymc')">
     <script src="https://unpkg.com/htmlincludejs"></script>
 
     <div class="slide2">
@@ -54,7 +54,7 @@
         <div class="img_holder">
             <img src="assets/team2.jpeg" id="group">
             
-            <div class="box left" onclick="card_onclick('left')"></div>
+            <div class="left box" id="left" onclick="card_onclick('left')"></div>
             <div class="box Wiley" onclick="card_onclick('Wiley')"></div>
             <div class="box ymc" onclick="card_onclick('ymc')"></div>
             <div class="box tkt" onclick="card_onclick('tkt')"></div>
@@ -69,11 +69,12 @@
         </div>  
         
         <!-- NAMECARD CLASSES START -->
-        <div class="namecard donald-card" id = "donald-card">
-            <h3 class="namecard-name">Chung Ho Long</h3>
-            <h4 class="namecard-class">6E (04)</h4>
-            <h4 class="namecard-rank">Chairperson, 2021-22</h4>
-            <a href="mailto:sms23030@stmarks.edu.hk">
+        <!--<svg id="line" width="500" height="500"><line x1="50" y1="50" x2="350" y2="350" stroke="black"/></svg>
+        --><div class="namecard ymc-card">
+            <h3 class="namecard-name">Mr.Raymond Chun</h3>
+            <h4 class="namecard-class">Teacher</h4>
+            <h4 class="namecard-rank">Teacher Advisor, 2022-23</h4>
+            <a href="mailto:smsymc@stmarks.edu.hk">
                 <p class="namecard-email">( E-MAIL )</p>
             </a>
         </div>
@@ -130,7 +131,7 @@
         </div>
 
         <div class="namecard py-card">
-            <h3 class="namecard-name">Yeung Yueng</h3>
+            <h3 class="namecard-name">Yeung Yeung</h3>
             <h4 class="namecard-class">5A (30)</h4>
             <h4 class="namecard-rank">Committee, 2022-23</h4>
             <a href="mailto:sms24142@stmarks.edu.hk">
@@ -174,14 +175,7 @@
             </a>
         </div>
 
-        <div class="namecard ymc-card">
-            <h3 class="namecard-name">Mr.Raymond Chun</h3>
-            <h4 class="namecard-class">Teacher</h4>
-            <h4 class="namecard-rank">Teacher Advisor, 2022-23</h4>
-            <a href="mailto:smsymc@stmarks.edu.hk">
-                <p class="namecard-email">( E-MAIL )</p>
-            </a>
-        </div>
+        
 
         <p class="s4m">scroll down for more.</p>
     </div>
@@ -195,28 +189,28 @@
               <div class="timeline__items">
                 <div class="timeline__item up-wrapper">
                   <div class="timeline__content up">
-                    September 2022: <br>
+                    <b>September 2022:</b> <br>
                     Enrollment day <br>
                     Annual General Meeting
                   </div>
                 </div>
                 <div class="timeline__item down-wrapper">
                   <div class="timeline__content down">
-                    November 2022:<br>
+                    <b>November 2022:</b><br>
                     Collaboration with <br>
                     Green club
                   </div>
                 </div>
-                <div class="timeline__item down-wrapper1">
-                    <div class="timeline__content down">
-                      February 2023:<br>
+                <div class="timeline__item up-wrapper2">
+                    <div class="timeline__content up">
+                      <b>February 2023:</b><br>
                       Android Studio & Java Workshop<br>
                       Blender Workshop
                     </div>
                 </div>
-                <div class="timeline__item up-wrapper2">
-                    <div class="timeline__content up">
-                        May 2023:<br>
+                <div class="timeline__item down-wrapper2">
+                    <div class="timeline__content down">
+                        <b>May 2023:</b><br>
                         STEM day 2023
                     </div>
                 </div>

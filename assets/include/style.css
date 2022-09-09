@@ -486,11 +486,11 @@ a{
 
 @keyframes down {
     0% {
-        transform:scale(0);
+        transform:translate(0,-100%);
         
     }
     100% {
-        transform:scale(1);
+        transform:translate(0,0%);
     }
 }
 

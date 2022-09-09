@@ -216,7 +216,7 @@ a{
 }
 
 .pig{
-    width: 5%;
+    width: 4%;
     left: 48%;
     height: 25%;
     top: 15%;
@@ -282,6 +282,7 @@ a{
     top: 30%;
     height: auto;
     position: relative;
+    z-index: -2;
 }
 
 .namecard {

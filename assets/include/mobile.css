@@ -7,52 +7,60 @@
 }
 
 .jamie{
-    width: 11%;
-    left:57%;
-    height: 25%;
-    top: 12%;
-    background-color: orange;
+    width: 16%;
+    left: 79%;
 }
 
 .left{
-    width: 11%;
-    left:57%;
-    height:58%;
-    top:37%;
-    background-color: wheat;
-}
-
-.donald{
-    width: 11%;
-    left:25%;
-    height:60%;
-    top:35%;
-    background-color: blue;
+    width: 19%;
+    left: 8%;
 }
 
 .jy{
     width: 8%;
-    left:36%;
-    height:60%;
-    top:35%;
-    background-color: green;
+    left: 56%;
 }
 
 .tkt{
-    width: 6%;
-    left: 44%;
-    height:60%;
-    top:35%;
-    background-color: yellow;
+    width: 16%;
+    left: 27%;
 }
 
 .pig{
-    width: 6%;
-    left:50%;
-    height:60%;
-    top:35%;
-    background-color: brown;
+    width: 10%;
+    left: 46%;
 }
+
+.ymc{
+    width: 18%;
+    left: 43%;
+}
+
+.Wiley{
+    width: 18%;
+    left: 61%;
+}
+
+.py{
+    width: 12%;
+    left: 25%;
+}
+
+.Chris{
+    width: 9%;
+    left: 37%;
+}
+
+.Chen{
+    width: 13%;
+    left: 64%;
+}
+
+.Ha{
+    width: 14%;
+    left: 77%;
+}
+
 
 .namecard {
     position: absolute;

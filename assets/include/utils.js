@@ -18,66 +18,12 @@ function card_onclick(name){
     console.log(name+" is clicked!");
     hideAllCards(name);
 
-    switch(name){
-        case "donald":
-            var ele = document.getElementsByClassName('donald-card')[0];
-            console.log(ele.style.display);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
-        
-        case "jy":
-            var ele = document.getElementsByClassName('jy-card')[0];
-            console.log(ele);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
+    var ele = document.getElementsByClassName(name+'-card')[0];
 
-        case "tkt":
-            var ele = document.getElementsByClassName('tkt-card')[0];
-            console.log(ele);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
-
-        case "pig":
-            var ele = document.getElementsByClassName('pig-card')[0];
-            console.log(ele);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
-
-        case "left":
-            var ele = document.getElementsByClassName('left-card')[0];
-            console.log(ele);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
-        
-        case "jamie":
-            var ele = document.getElementsByClassName('jamie-card')[0];
-            console.log(ele);
-            if (ele.style.display == 'none'){
-                ele.style.display = '';
-            }else{
-                ele.style.display = 'none';
-            }
-            break;
+    if (ele.style.display == 'none'){
+        ele.style.display = '';
+    }else{
+        ele.style.display = 'none';
     }
 }
 

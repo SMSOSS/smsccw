@@ -1,4 +1,12 @@
-<div class="carousel-item active blog_item">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/include/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 1200px)" href="/assets/include/mobile.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+    <title> smsccw </title>
+</head>
+<body onload="start2()">
+<div class="carousel-item active blog_item black">
 <h4 class="bheader">2022: End of year report.</h4>
 <h5 class="bsubheader">Tough year eh? Same for us.</h5>
 <p class="bintro">This year was a challenging year for everyone.
@@ -9,7 +17,22 @@
     that are interested in what we do. Continue reading to find out more details.
 </p>
 
-<a href="/blog/2022-review/2022-review.html">
+<a href="/blog/highlight-one.html" class="link">
     <p class="blm">( LEARN MORE )</p>
 </a>
 </div>
+<script>
+    function start2(){
+        var blm = document.getElementsByClassName("blm")[0];
+        blm.innerText = "( BACK )";
+
+        var link = document.getElementsByClassName("link")[0];
+        link.href = "/";
+
+        var intro = document.getElementsByClassName("bintro")[0];
+        console.log(intro);
+        intro.style.height = "60vh";
+    }
+</script>
+</body>
+</html>

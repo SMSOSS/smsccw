@@ -132,7 +132,7 @@ a{
     font-size: 2vmin;
     line-height: 6vmin;
     letter-spacing: -0.05em;
-    overflow-x: hidden;
+    overflow: clip;
 
     color: #FAFAFA;
 }

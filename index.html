@@ -4,6 +4,7 @@
     <link href="dist/css/timeline.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/include/style.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 1200px)" href="assets/include/mobile.css"> 
+    <link rel="icon" type="image/x-icon" href="assets/icon.png">
     <title> smsccw </title>
 </head>
 
@@ -23,14 +24,14 @@
 
         <!-- BLOG HIGHLIGHT ONE START-->
         <div class="blog-highlight-one">
-            <include src="blog/highlight-one.html"></include>
+            <!--<include src="blog/highlight-one.html"></include>-->
         </div>
 
         <!-- BLOG HIGHLIGHT ONE END -->
 
         <!-- BLOG HIGHLIGHT TWO START -->
         <div class="blog-highlight-two">
-            <include src="blog/highlight-two.html"></include>
+            <!--<include src="blog/highlight-two.html"></include>-->
             <!-- BLOG HIGHLIGHT TWO END -->
         </div> 
         <p class="s4m color-white">Scroll for more.</p>
@@ -38,12 +39,12 @@
 
     <div class="slide slide2">
         <h1 class="title color-black">Team</h1>
-        <h3 class="subtitle color-black">The club's important personnel..</h3>
+        <h3 class="subtitle color-black"><b id="click">click</b> the people for details.</h3>
         
 
         <div class="img_holder">
             <img src="assets/team.png" id="group">
-            <div class="box donald" onclick="card_onclick('donald')"></div>
+            <div class="box donald" id = "donald" onclick="card_onclick('donald')"></div>
             <div class="box jy" onclick="card_onclick('jy')"></div>
             <div class="box tkt" onclick="card_onclick('tkt')"></div>
             <div class="box pig" onclick="card_onclick('pig')"></div>
@@ -52,7 +53,7 @@
         </div>  
         
         <!-- NAMECARD CLASSES START -->
-        <div class="namecard donald-card">
+        <div class="namecard donald-card" id = "donald-card">
             <h3 class="namecard-name">Chung Ho Long</h3>
             <h4 class="namecard-class">6E (04)</h4>
             <h4 class="namecard-rank">Chairperson, 2021-22</h4>
@@ -112,7 +113,7 @@
             </a>
         </div>
 
-        <p class="s4m">click the people for details. scroll down for more.</p>
+        <p class="s4m">scroll down for more.</p>
     </div>
 
     <div class="slide black">

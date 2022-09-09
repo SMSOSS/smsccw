@@ -16,6 +16,7 @@ body {
     font-family: 'Ndot';
     font-style: normal;
     color: #212121;
+    overflow: overlay;
 }
 
 .slide2 {
@@ -107,9 +108,7 @@ a{
     font-weight: 700;
     font-size: 4vmin;
     line-height: 5vmin;
-    letter-spacing: -0.05em;
-    overflow-x: hidden;
-    
+    letter-spacing: -0.05em;    
 
     color: #FAFAFA;
 }

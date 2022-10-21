@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/include/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width : 1200px)" href="/assets/include/mobile.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+    <title> smsccw </title>
+</head>
+<body onload="start2()">
+<div class="carousel-item active blog_item black">
+    <h4 class="bheader">Introduction to App Creation Workshop</h4>
+    <h5 class="bsubheader">Android software application</h5>
+    <p class="bintro">
+        We will be holding a workshop about the Introduction to app creation.  <br>
+The details are as follows:<br>
+
+Date: 10/11, 17/11, 24/11, 14:30-15:30<br>
+Venue: STEM room (room 310)<br>
+Content: Concept of App Creation/ Design of Interface using Java<br>
+     
+
+Application form: <a href="https://forms.gle/7gdqeGoRmEJBmEKz8">link</a><br>
+
+Please reply on or before 31/10. <br>If you have any inquiries, please don’t hesitate to contact 5C17 To King To via our <a href="https://discord.gg/ykXRTBwvQJ">discord server</a>. <br>We look forward to seeing you :)
+    </p>
+    
+    
+
+    <a href="blog/highlight-three.html" class="link">
+        <p class="blm">( LEARN MORE )</p>
+    </a>
+    </div>
+
+    <script>
+    function start2(){
+        var blm = document.getElementsByClassName("blm")[0];
+        blm.innerText = "( BACK )";
+
+        var link = document.getElementsByClassName("link")[0];
+        link.href = "../";
+
+        var intro = document.getElementsByClassName("bintro")[0];
+        console.log(intro);
+        intro.style.height = "60vh";
+    }</script>
+</body>
+</html>

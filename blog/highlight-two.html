@@ -5,7 +5,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/icon.png">
     <title> smsccw </title>
 </head>
-<body>
+<body onload="start2()">
 <div class="carousel-item blog_item black">
     <h4 class="bheader">The story of the website.</h4>
     <h5 class="bsubheader">The rules behind the design.</h5>
@@ -17,10 +17,23 @@
         goals we aim to acheive with this website, etc.
     </p>
     
-    <!--
-    <a href="blog/highlight-two.html">
+    
+    <a href="blog/highlight-two.html" class="link">
         <p class="blm">( LEARN MORE )</p>
-    </a>-->
+    </a>
     </div>
+
+    <script>
+    function start2(){
+        var blm = document.getElementsByClassName("blm")[0];
+        blm.innerText = "( BACK )";
+
+        var link = document.getElementsByClassName("link")[0];
+        link.href = "../";
+
+        var intro = document.getElementsByClassName("bintro")[0];
+        console.log(intro);
+        intro.style.height = "60vh";
+    }</script>
 </body>
 </html>
